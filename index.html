@@ -376,6 +376,71 @@
             font-size: 1.2em;
             margin-top: 20px;
         }
+        /* Styles pour les écrans de 600px ou moins (smartphones) */
+@media screen and (max-width: 600px) {
+    body {
+        background-size: cover;
+        padding: 10px;
+    }
+
+    header {
+        padding: 60px 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    section {
+        padding: 30px;
+        width: 100%;
+    }
+
+    .header-login .login-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header-login input {
+        width: 90%;
+    }
+
+    .header-login button {
+        width: 90%;
+    }
+
+    .service-images img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .team-member img {
+        width: 150px;
+        height: 150px;
+    }
+
+    form {
+        width: 90%;
+        padding: 20px;
+    }
+
+    iframe {
+        height: 250px;
+    }
+}
+
     </style>
 </head>
 <body>
@@ -531,3 +596,4 @@
     
 </body>
 </html>
+
